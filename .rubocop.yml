@@ -9,13 +9,13 @@
 #
 # See https://docs.rubocop.org/rubocop/configuration
 
-require: 
-  - rubocop-sorbet
+require:
   - rubocop-rails
 
 AllCops:
   Exclude:
-    - 'bin/*'
+    - 'bin/**/*'
+    - 'db/**/*'
   NewCops: enable
 
 
