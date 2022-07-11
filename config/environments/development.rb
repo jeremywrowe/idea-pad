@@ -1,3 +1,4 @@
+# typed: false
 # frozen_string_literal: false
 
 require 'active_support/core_ext/integer/time'
